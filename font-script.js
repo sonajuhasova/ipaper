@@ -9,7 +9,7 @@ function renderText() {
     document.getElementById('rendered').style.width = width +'px';
     document.getElementById('rendered').style.fontFamily = font;
     document.getElementById('rendered').style.fontSize = height + 'px';
-    document.getElementById('rendered').style.heigth = height + 'px'; 
+    document.getElementById('rendered').style.height = height + 'px'; 
 
     while (document.getElementById('rendered').scrollWidth > width) {
         height = height - 1;
@@ -18,4 +18,7 @@ function renderText() {
         
      }
 
+    
 }
+
+renderText();
