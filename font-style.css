@@ -48,10 +48,11 @@ button {
 }
 
 #rendered {
-    display: flex;
+    display: block;
     justify-content: center;
     margin: auto; 
-    border: 1px solid black;
+    border: 1px solid black; 
+    overflow: hidden;
 }
 
 .change-task {
