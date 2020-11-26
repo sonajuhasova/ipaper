@@ -16,21 +16,21 @@
 
         <div id="form">
             <label>Type your text</label>
-            <input type="text" value="Text">
+            <input type="text"  id="text-input">
             <label>Choose Width</label>
-            <input type="number" value="Width">
+            <input type="number" value="Width" id="width">
             <label>Choose Height</label>
-            <input type="number" value="Height">
+            <input type="number" value="Height" id="height">
             <label>Choose Font</label>
             <select id="fonts" name="Choose font">
-                <option value="Verdana">Verdana</option>
-                <option value="Ariel">Ariel</option>
-                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana, Geneva, Tahoma, sans-serif">Verdana</option>
+                <option value="Arial, Helvetica, sans-serif">Arial</option>
+                <option value="'Times New Roman', Times, serif">Times New Roman</option>
             </select>
-            <button>Render text</button>
+            <button onclick="renderText()">Render text</button>
         </div>
 
-        <div id="rendered">ndskj</div>
+        <div id="rendered"></div>
 
 
         <div class="change-task"><a href="index.html">Price calculation slider</a></div>

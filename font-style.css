@@ -50,7 +50,8 @@ button {
 #rendered {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: auto; 
+    border: 1px solid black;
 }
 
 .change-task {
