@@ -73,7 +73,7 @@ function calcPrice() {
     }
 
 
-    document.querySelector('#estimated-price').innerHTML = finalPrice + ' dkk';
+    document.querySelector('#estimated-price').innerHTML = 'Your price: '+finalPrice + ' dkk';
 }
 
 ipValue();
