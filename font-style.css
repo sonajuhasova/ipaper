@@ -1,0 +1,31 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+video,
+frame {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.change-task {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50vw;
+    height: 20px;
+}
+
+.change-task a {
+    margin: auto;
+    text-align: center;
+
+}
