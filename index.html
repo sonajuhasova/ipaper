@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example Title</title>
+    <meta name="author" content="Sona Juhasova">
+    <meta name="description" content="Price calculation slider">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Price calculation slider</header>
+    <main>
+
+        <div class="pricing">
+
+            <div class="ipaper-slider">
+                <span>How many iPapers are needed?</span>
+                <input type="range"   min="1" max="25" id="ip-slider" onchange="ipValue()" />
+                <div class="ipaper-slider-value"></div>
+            </div>
+
+
+
+            <div class="pricing">
+
+                <div class="visitors-slider">
+                    <span>How many expected visitors?</span>
+                    <input type="range"  min="1" max="100" id="vis-slider" onchange="visValue()" />
+                    <div class="visitors-slider-value"></div>
+                </div>
+
+            </div>
+
+            <div id='estimated-price'>0dkk</div>
+        </div>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
