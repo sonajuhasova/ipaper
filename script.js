@@ -76,4 +76,5 @@ function calcPrice() {
     document.querySelector('#estimated-price').innerHTML = finalPrice + ' dkk';
 }
 
-calcPrice(); 
+ipValue();
+visValue();
