@@ -29,6 +29,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 35px;
+    background: #ffffff;
+    box-shadow: 7px 7px 14px #b3b3b3,
+    -7px -7px 14px #ffffff;
+    padding: 50px;
+    width: fit-content;
 }
 
 .pricing div {
